@@ -35,6 +35,9 @@ namespace Menu_Program
             orders = "";
             lblTotalSales.Visible = false;
             btnServe.Visible = true;
+            txtSearchBar.Visible = false;
+            btnReset.Visible = false;
+            btnSearch.Visible = false;
 
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
@@ -66,6 +69,10 @@ namespace Menu_Program
             lblTotalSales.Visible = true;
             btnServe.Visible = false;
 
+            txtSearchBar.Visible = true;
+            btnReset.Visible = true;
+            btnSearch.Visible = true;
+
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
             dataGrid.Columns.Add("colPrice", "Price");
@@ -85,10 +92,11 @@ namespace Menu_Program
                 }
                 if(list.timer == DateTime.Today.ToString("M-dd-yyyy"))
                         dataGrid.Rows.Add(i, orders, totalPrice);
-                totalPrice = 0;
+                orders = "";
                 i++;
             }
             lblTotalSales.Text += totalPrice.ToString();
+            totalPrice = 0;
         }
         
         private void btnLogs_Click(object sender, EventArgs e)
@@ -104,6 +112,10 @@ namespace Menu_Program
             orders = "";
             lblTotalSales.Visible = false;
             btnServe.Visible = false;
+
+            txtSearchBar.Visible = true;
+            btnReset.Visible = true;
+            btnSearch.Visible = true;
 
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
@@ -122,6 +134,8 @@ namespace Menu_Program
                     totalPrice += order.price * order.count;
                 }
                 dataGrid.Rows.Add(i,orders, totalPrice, list.timer);
+                orders = "";
+                totalPrice = 0;
                 i++;
             }
 
@@ -160,6 +174,56 @@ namespace Menu_Program
                 DSA.orders.Dequeue();
             btnOrders.PerformClick();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            tempHashSet.Clear();
+            tempStack.Clear();
+
+            if((txtSearchBar.Text == ""))
+            {
+                tempHashSet.Clear();
+                tempStack.Clear();
+                tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
+                tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
+                if(todaysLogs)
+                    btnTodayLogs.PerformClick();
+                else if(overallLogs)
+                    btnLogs.PerformClick();
+            }
+            else
+            {
+                if (todaysLogs)
+                {
+                    tempStack= Searching.Search(DSA.todayLogs, txtSearchBar.Text);
+                    tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
+                    btnTodayLogs.PerformClick();
+                }
+                else if (overallLogs)
+                {
+                    tempHashSet = Searching.Search(DSA.overallLogs, txtSearchBar.Text);
+                    tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
+                    btnLogs.PerformClick();
+                }
+            }
+            txtSearchBar.Text = "";
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+                if (todaysLogs)
+                {
+                    tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
+                    btnTodayLogs.PerformClick();
+                }
+                else if (overallLogs)
+                {
+                    tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
+                    btnLogs.PerformClick();
+                }
+
+        }
+
         private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
         {
             switch (comboBox1.Text)

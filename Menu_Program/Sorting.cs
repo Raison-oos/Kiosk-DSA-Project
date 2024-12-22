@@ -85,8 +85,8 @@ namespace Menu_Program
         }
         public static HashSet<CustomerOrder> SelectionSort(HashSet<CustomerOrder> arr)
         {
-            HashSet<CustomerOrder> students = new HashSet<CustomerOrder>(SelectionSort(arr.ToList<CustomerOrder>()));
-            return students;
+            HashSet<CustomerOrder> temp = new HashSet<CustomerOrder>(SelectionSort(arr.ToList<CustomerOrder>()));
+            return temp;
         }
 
     }
