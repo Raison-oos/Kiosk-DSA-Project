@@ -19,6 +19,7 @@ namespace Menu_Program
                     if (o.name.ToLower().Contains(search.ToLower()))
                     {
                         temp1.Add(c);
+                        break;
                     }
                     
                 }

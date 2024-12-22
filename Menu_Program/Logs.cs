@@ -36,8 +36,6 @@ namespace Menu_Program
             lblTotalSales.Visible = false;
             btnServe.Visible = true;
             txtSearchBar.Visible = false;
-            btnReset.Visible = false;
-            btnSearch.Visible = false;
 
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
@@ -70,8 +68,6 @@ namespace Menu_Program
             btnServe.Visible = false;
 
             txtSearchBar.Visible = true;
-            btnReset.Visible = true;
-            btnSearch.Visible = true;
 
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
@@ -81,6 +77,7 @@ namespace Menu_Program
             //add the rows
             int i = 1;
             int totalPrice = 0;
+            int totalSales = 0;
             //tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
             //foreach (CustomerOrder list in DSA.todayLogs)
             foreach (CustomerOrder list in tempStack)
@@ -89,14 +86,16 @@ namespace Menu_Program
                 {
                     orders = orders + order.name + " x" + order.count + "\n";
                     totalPrice += order.price * order.count;
+                    totalSales+= order.price * order.count;
                 }
                 if(list.timer == DateTime.Today.ToString("M-dd-yyyy"))
                         dataGrid.Rows.Add(i, orders, totalPrice);
+                totalPrice = 0;
                 orders = "";
                 i++;
             }
-            lblTotalSales.Text += totalPrice.ToString();
-            totalPrice = 0;
+            lblTotalSales.Text += totalSales.ToString();
+            totalSales = 0;
         }
         
         private void btnLogs_Click(object sender, EventArgs e)
@@ -114,8 +113,6 @@ namespace Menu_Program
             btnServe.Visible = false;
 
             txtSearchBar.Visible = true;
-            btnReset.Visible = true;
-            btnSearch.Visible = true;
 
             dataGrid.Columns.Add("colNumber", "#");
             dataGrid.Columns.Add("colOrders", "Orders");
@@ -175,15 +172,13 @@ namespace Menu_Program
             btnOrders.PerformClick();
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void txtSearchBar_TextChanged(object sender, EventArgs e)
         {
             tempHashSet.Clear();
             tempStack.Clear();
 
             if((txtSearchBar.Text == ""))
             {
-                tempHashSet.Clear();
-                tempStack.Clear();
                 tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
                 tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
                 if(todaysLogs)
@@ -191,36 +186,18 @@ namespace Menu_Program
                 else if(overallLogs)
                     btnLogs.PerformClick();
             }
-            else
+            else if (todaysLogs)
             {
-                if (todaysLogs)
-                {
-                    tempStack= Searching.Search(DSA.todayLogs, txtSearchBar.Text);
-                    tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
-                    btnTodayLogs.PerformClick();
-                }
-                else if (overallLogs)
-                {
-                    tempHashSet = Searching.Search(DSA.overallLogs, txtSearchBar.Text);
-                    tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
-                    btnLogs.PerformClick();
-                }
+                tempStack= Searching.Search(DSA.todayLogs, txtSearchBar.Text);
+                tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
+                btnTodayLogs.PerformClick();
             }
-            txtSearchBar.Text = "";
-        }
-
-        private void btnReset_Click(object sender, EventArgs e)
-        {
-                if (todaysLogs)
-                {
-                    tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
-                    btnTodayLogs.PerformClick();
-                }
-                else if (overallLogs)
-                {
-                    tempHashSet = new HashSet<CustomerOrder>(DSA.overallLogs);
-                    btnLogs.PerformClick();
-                }
+            else if (overallLogs)
+            {
+                tempHashSet = Searching.Search(DSA.overallLogs, txtSearchBar.Text);
+                tempStack = new Stack<CustomerOrder>(DSA.todayLogs);
+                btnLogs.PerformClick();
+            }
 
         }
 
