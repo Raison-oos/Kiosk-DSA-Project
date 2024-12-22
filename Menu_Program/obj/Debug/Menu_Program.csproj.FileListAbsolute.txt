@@ -1,0 +1,13 @@
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.csproj.AssemblyReference.cache
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.MenuForm.resources
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.Properties.Resources.resources
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.csproj.GenerateResource.cache
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.csproj.CoreCompileInputs.cache
+E:\Projects\Winforms\Menu_Program\Menu_Program\bin\Debug\Menu_Program.exe.config
+E:\Projects\Winforms\Menu_Program\Menu_Program\bin\Debug\Menu_Program.exe
+E:\Projects\Winforms\Menu_Program\Menu_Program\bin\Debug\Menu_Program.pdb
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.exe
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.pdb
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.Checkout.resources
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.Product.resources
+E:\Projects\Winforms\Menu_Program\Menu_Program\obj\Debug\Menu_Program.Logs.resources
