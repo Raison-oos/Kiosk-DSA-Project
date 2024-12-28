@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|e:\\projects\\dsa final project\\kiosk-dsa-project\\menu_program\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\menuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\sorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\logs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\menu_program\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{064E5ED3-A9BF-4C66-9526-E17B3C76ABD4}|Menu_Program\\Menu_Program.csproj|solutionrelative:menu_program\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 246,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Logs.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Logs.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.cs [Design]",
+              "RelativeToolTip": "Menu_Program\\Logs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:23:21.955Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Product.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Product.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Product.cs [Design]",
+              "RelativeToolTip": "Menu_Program\\Product.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T13:36:15.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sorting.cs",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Sorting.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Sorting.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Sorting.cs",
+              "RelativeToolTip": "Menu_Program\\Sorting.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:57:04.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logs.Designer.cs",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.Designer.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Logs.Designer.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.Designer.cs",
+              "RelativeToolTip": "Menu_Program\\Logs.Designer.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAjwI0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:38:04.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Checkout.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Checkout.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Checkout.cs",
+              "RelativeToolTip": "Menu_Program\\Checkout.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:40:38.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Checkout.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Checkout.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Checkout.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Checkout.cs [Design]",
+              "RelativeToolTip": "Menu_Program\\Checkout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:40:23.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\Logs.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\Logs.cs",
+              "RelativeToolTip": "Menu_Program\\Logs.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAlwAsBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:25:15.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuForm.cs [Design]",
+              "DocumentMoniker": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\MenuForm.cs",
+              "RelativeDocumentMoniker": "Menu_Program\\MenuForm.cs",
+              "ToolTip": "E:\\Projects\\DSA Final Project\\Kiosk-DSA-Project\\Menu_Program\\MenuForm.cs [Design]",
+              "RelativeToolTip": "Menu_Program\\MenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:19:01.525Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
